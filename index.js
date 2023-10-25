@@ -23,7 +23,7 @@ var x= 10
 console.log(x)
 
 const y= 989
-y=123123
+
 console.log(y)
 
 
@@ -33,6 +33,8 @@ console.log(x+2);
 console.log(x-2)
 console.log(x*2)
 console.log(x/2)
+
+console.log(asdfzsdf);
 
 console.log(x%2)
 console.log(x**2)
@@ -55,7 +57,9 @@ if (yz==5){
 
 
 //write me a program to print the sum of two numbers
-    
+    function sum(a,b){
+        return a+b
+    }
 
 const xy=8
 
