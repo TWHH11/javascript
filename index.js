@@ -34,7 +34,7 @@ console.log(x-2)
 console.log(x*2)
 console.log(x/2)
 
-console.log(asdfzsdf);
+
 
 console.log(x%2)
 console.log(x**2)
@@ -61,8 +61,103 @@ if (yz==5){
         return a+b
     }
 
-const xy=8
+//comparion oprators
+
+var xy='8'
+
+if (xy===8){
+    console.log(true);
+}else {
+    console.log(false);
+}
+
+if (xy!=8) {
+    console.log(true);
+}else {
+    console.log(false);
+}
+
+if (xy!==8) {
+    console.log(true);
+}else {
+    console.log(false);
+}
+
+var hm = '4';
+
+if (hm!==4){
+    console.log("True");
+}else {
+    console.log("False");
+}
+
+const jj=3;
+
+if (jj>=5){
+    console.log("True");
+}else {
+    console.log("False");
+}
+
+///////
+
+let result;
+x=10;
+
+/*if (x=11){
+    result= "It is True";
+}else{
+    result= "It is False"
+}*/
 
 
 
+//ternery operator
 
+result= x === 5 ? " It is True" : "It is False";
+
+console.log(result);
+
+//logical operators || &&  !
+
+let rt;
+const ij=45;
+
+if (ij===45 || ij==="hi" ){
+    rt= "It is True";
+}else{
+    rt= "It is False";
+}
+console.log(rt);
+
+//switch
+
+const z=110;
+
+switch (z){
+    case 10:
+        console.log("X is 10");
+    break;
+
+    case 10:
+        console.log("X is 10");
+    break;        
+    case 10:
+        console.log("X is 10");
+    break; 
+    default:
+        console.log(" X is Null");
+    break;        
+}
+
+//data type
+
+let a= '10';
+
+console.log(typeof a);
+console.log(a);
+
+let b= true;
+
+console.log(typeof b);
+console.log(b);
