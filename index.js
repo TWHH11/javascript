@@ -161,3 +161,42 @@ let b= true;
 
 console.log(typeof b);
 console.log(b);
+
+let c= [46,"hello",true, ];
+
+console.log(typeof c);
+console.log(c);
+
+ // Loop 1: while,for , for...of
+
+ let j= 5;
+ while (j<8){
+    console.log(j);
+    j++;
+ }
+
+ const colors= ['red','green','blue'];
+
+ console.log(colors[1]);
+
+ colors.push('brown');
+ colors.unshift('yellow');
+ colors.pop()
+
+    //  for(let i=0; i<colors.length;i++){
+    //     console.log(i);
+    //  }
+
+    //  let i= 0;
+    //  while (i<colors.length){
+    //     console.log(colors[i]);
+    //     i++;
+    //  }
+
+for(let i=0;i<colors.length; i++){
+    console.log(colors[i]); }
+
+
+ for(const ui of colors){
+    console.log(ui);
+ }
